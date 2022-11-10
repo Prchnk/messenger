@@ -2,10 +2,10 @@
   "name": "viber2.0",
   "version": "1.0.0",
   "scripts": {
-    "build": "./node_modules/.bin/parcel build src/pages/index.hbs",
+    "build": "./node_modules/.bin/parcel build src/pages/index.html",
     "start": "npm run build && node ./src/server/app.js",
     "dev": "npm run build && nodemon ./src/server/app.js",
-		"profile": "parcel build src/pages/profile/profile.hbs"
+    "profile": "parcel build src/pages/profile/profile.hbs"
   },
   "author": "",
   "license": "ISC",
@@ -18,17 +18,16 @@
   },
   "dependencies": {
     "express": "^4.18.2",
-    "express-handlebars": "^6.0.6",
-    "handlebars": "^4.7.7"
+    "express-handlebars": "^6.0.6"
   },
-	"engines": {
-		"node": ">= 12"
-	},
-	"targets": {
-		"default": {
-			"engines": {
-				"browsers": ">= 50%"
-			}
-		}
-	}
+  "engines": {
+    "node": ">= 12"
+  },
+  "targets": {
+    "default": {
+      "engines": {
+        "browsers": ">= 50%"
+      }
+    }
+  }
 }
