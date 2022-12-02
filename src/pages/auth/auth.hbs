@@ -1,17 +1,15 @@
 <h2>{{title}}</h2>
 
-<form>
+<form class="form form_auth">
 
-	{{#each list}}
+	<div class="injectedInputs">
 
-		<div class="input-control shadow-input">
-			<label class="input-label">{{label}}
-				<input name="{{this.name}}" type="{{this.type}}">
-			</label>
-		</div>
+	</div>
 
-	{{/each}}
+	<div class="injectedBtnSubmit">
+
+	</div>
+
+	{{!-- <button type="submit" class="btn btn_submit">Авторизоваться</button> --}}
 
 </form>
-
-<button class="btn_submit">авторизоваться</button>

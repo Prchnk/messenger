@@ -1,16 +1,8 @@
 <h2>{{title}}</h2>
 
-<form>
-
-	{{#each list}}
-
-		<div class="input-control shadow-input">
-			<label class="input-label">{{label}}
-				<input name="{{this.name}}" type="{{this.type}}">
-			</label>
-		</div>
-
-	{{/each}}
+<form class="form form_registration">
+	<div class="controls"></div>
+	<button type="submit" class="btn_submit">зарегистрироваться</button>
 </form>
 
-<button class="btn_submit">зарегистрироваться</button>
+
